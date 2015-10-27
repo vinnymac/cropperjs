@@ -5,7 +5,7 @@
  * Copyright (c) 2015 Fengyuan Chen
  * Released under the MIT license
  *
- * Date: 2015-10-25T02:25:08.062Z
+ * Date: 2015-10-27T14:53:16.141Z
  */
 
 (function (global, factory) {
@@ -2525,14 +2525,14 @@
       var data = {};
 
       if (this.built) {
-        $.each([
+        each([
           'left',
           'top',
           'width',
           'height',
           'naturalWidth',
           'naturalHeight'
-        ], function (i, n) {
+        ], function (n) {
           data[n] = canvasData[n];
         });
       }
